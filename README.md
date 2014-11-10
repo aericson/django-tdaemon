@@ -19,11 +19,12 @@ from an activated virtualenv.
 
 ### Usage
 
-Usage: Usage: %[prog] [options] [\<path\>]
+    Usage: Usage: %[prog] [options] [<path>]
 
 Options:
-  -h, --help            show this help message and exit
-  -s SETTINGS, --settings=SETTINGS
+
+    -h, --help            show this help message and exit
+    -s SETTINGS, --settings=SETTINGS
                         Django settings module ie: proj_name.settings. The
                         default will try to guess from the path passed or by
                         using the currrent directory.
