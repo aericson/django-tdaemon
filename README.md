@@ -1,5 +1,7 @@
 ## django-tdaemon
 
+[![Build Status](https://magnum.travis-ci.com/aericson/django-tdaemon.svg?token=g4esUq1iZ62YjYpuNxvi&branch=master)](https://magnum.travis-ci.com/aericson/django-tdaemon)
+
 Test daemon for Django. Based on https://github.com/brunobord/tdaemon
 
 Will try to find the app where changes were made and run test only for the app.
