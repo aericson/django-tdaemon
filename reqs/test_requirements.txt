@@ -1,0 +1,7 @@
+-r base_requirements.txt
+tox
+django
+pytest
+pytest-cov
+mock
+testfixtures

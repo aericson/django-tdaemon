@@ -1,0 +1,5 @@
+-r base_requirements.txt
+pytest
+pytest-cov
+mock
+testfixtures

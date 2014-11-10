@@ -15,6 +15,7 @@ setup(
     install_requires=[
         'watchdog>=0.8.1',
     ],
+    tests_require=['pytest', 'mock', 'pytest-cov', 'testfixtures'],
     classifiers=[
         'Environment :: Console',
         'Intended Audience :: Developers',
