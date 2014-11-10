@@ -4,4 +4,3 @@ django
 pytest
 pytest-cov
 mock
-testfixtures
