@@ -43,7 +43,7 @@ class TestDjangoTDaemon(TestCase):
         app_path = os.path.join(cls.dir, app)
         os.mkdir(app_path)
         sub_call(
-            ['django-admin', 'startapp', app, app_path]
+            ['django-admin.py', 'startapp', app, app_path]
         )
         cls._create_test_file(app_path, number_of_tests)
 
@@ -57,7 +57,7 @@ class TestDjangoTDaemon(TestCase):
 
         cls.dir = create_tmp_dir()
         sub_call(
-            ['django-admin', 'startproject', 'test_proj',
+            ['django-admin.py', 'startproject', 'test_proj',
              cls.dir])
         cls.proj_path = os.path.join(cls.dir, 'test_proj')
         sys.path.append(cls.dir)
