@@ -198,7 +198,7 @@ def parse_args():
     parser.add_option("-s", "--settings", dest='settings',
                       help="Django settings module ie: proj_name.settings. "
                       "The default will try to guess from the path passed or "
-                      u"by using the currrent directory.")
+                      "by using the currrent directory.")
     opt, args = parser.parse_args(sys.argv)
 
     path = args[1] if len(args) > 1 else os.getcwdu()
