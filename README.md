@@ -1,6 +1,7 @@
 ## django-tdaemon
 
 [![Build Status](https://travis-ci.org/aericson/django-tdaemon.svg?branch=master)](https://travis-ci.org/aericson/django-tdaemon)
+[![Coverage Status](https://coveralls.io/repos/aericson/django-tdaemon/badge.png)](https://coveralls.io/r/aericson/django-tdaemon)
 
 Test daemon for Django. Based on https://github.com/brunobord/tdaemon
 

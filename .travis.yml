@@ -9,5 +9,9 @@ env:
     - DJANGO_VERSION=1.7.1
 install:
     - pip install Django==$DJANGO_VERSION
+    - pip install coveralls
     - pip install -r reqs/test_requirements.txt
-script: py.test
+script:
+    - py.test -v --cov-report term-missing --cov django_tdaemon
+after_script:
+    - coveralls --verbose
